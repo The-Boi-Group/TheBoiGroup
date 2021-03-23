@@ -1,0 +1,107 @@
+<html>
+    <title>
+        The Boi Group
+    </title>
+    <html>
+        <title>The Boi Group</title>
+        <head>
+            <head>
+            
+                <meta charset="UTF-8">
+                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                <meta http-equiv="X-UA-Compatible" content="ie=edge">
+                <link rel="stylesheet" href="style.css">
+                <link rel="shortcut icon" type="image/x-icon" href="favicon.png">
+                <link href="https://fonts.googleapis.com/css2?family=Fira+Code&family=Open+Sans:ital,wght@0,400;0,600;1,400;1,600&display=swap" rel="stylesheet">
+                <script src="https://kit.fontawesome.com/93866eaaa9.js" crossorigin="anonymous"></script>
+                <nav class="menu">
+                    <div class="nav-left">
+                        <ul>
+                            <li><a href="index.html"><img class="logo" src="beal.jpg" alt=""><span class="sitename"></span></a></li>
+                        </ul>
+                    </div>
+            </head>
+        </head>
+        <nav class="menu">
+            <div class="nav-left">
+                <ul>
+                    <li><a href="index.html"><img class="logo" src="favicon.png" alt=""><span class="sitename">The Boi Group</a></li>
+                </ul>
+            </div>
+            <div class="nav-right">
+                <ul>
+                    <li style="padding: 9px"><a id="darkmodetoggle" class="fas fa-moon" onclick="switchTheme()"></a></li>
+                    <li><a href="mailto:cqj0eazv2@relay.firefox.com">Contact</a></li>
+                    <li><a href="articals/articals.html">Articles</a></li>
+                    <li><a href="       ">      </a></li>
+                    <li><a href="https://www.youtube.com/channel/UC7KoO-PKudnMl6IWT_j2aOQ/about">Channel</a></li>
+                </ul>
+            </div>
+        </nav>
+        <script>
+            // Get the theme toggle input
+            const currentTheme = localStorage.getItem("theme");// If the current local storage item can be found
+
+            // Function that will switch the theme based on the if the theme toggle is checked or not
+            function switchTheme() {
+              if (document.documentElement.getAttribute("data-theme") === "dark") {
+                document.documentElement.setAttribute("data-theme", "light");
+                // Set the user's theme preference to dark
+                localStorage.setItem("theme", "light");
+              } else {
+                document.documentElement.setAttribute("data-theme", "dark");
+                // Set the user's theme preference to light
+                localStorage.setItem("theme", "dark");
+              }
+            }
+
+
+            // Get the current theme from local storage
+            if (currentTheme) {
+              // Set the body data-theme attribute to match the local storage item
+              document.documentElement.setAttribute("data-theme", currentTheme);// If the current theme is dark, check the theme toggle
+              if (currentTheme === "dark") {
+                themeToggle.click();
+              }
+            }
+            </script>
+    </div>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" href="style.css">
+        <link rel="shortcut icon" type="image/x-icon" href="favicon.png">
+        <link href="https://fonts.googleapis.com/css2?family=Fira+Code&family=Open+Sans:ital,wght@0,400;0,600;1,400;1,600&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/93866eaaa9.js" crossorigin="anonymous"></script>
+    </head>
+    <marquee behavior="scroll" direction="left">Notice: This Website is still under development so yeah most things are broken! <a href="devlog.html">Devlog</a> </marquee>
+
+    <h1>
+        The Boi Group
+    </h1>
+    <h2>
+        A Collection Of Content.
+    </h2>
+    <p>
+
+        Stuff We Do And Support:
+        <li>Boi News</li>
+        <li>Boi Group Podcast</li>
+        <li>Gary Talks</li>
+        <p> This website is written in html and hosted </p>
+        <p><a href="https://drive.google.com/drive/folders/1FYDX23NhtBmdk5uIl7uqwHlQzB3bCIgC?usp=sharing">Code Download</a></p>
+        <p>We Have A <a href="devlog.html">Devlog</a></p>
+        <p>Take down issues or random stuff you can contact us at </p>
+        <p><a href="mailto:cqj0eazv2@relay.firefox.com">Contact</a></p>
+        <p><a href="Tos.html"></a>Our Terms Of Service</p>
+
+            .................................
+          </p>
+          <p><h1>Articles:</h1></p>
+          <p>
+        <a href="articals/The-Broken-Window.html">The Incedent Of The Broken Window</a>
+
+        </p>
+    </p>
+</html>
