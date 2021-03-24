@@ -38,6 +38,7 @@
             </div>
         </nav>
         <script src="index.js"></script>
+            
     </div>
     <head>
         <meta charset="UTF-8">
@@ -48,9 +49,73 @@
         <link href="https://fonts.googleapis.com/css2?family=Fira+Code&family=Open+Sans:ital,wght@0,400;0,600;1,400;1,600&display=swap" rel="stylesheet">
         <script src="https://kit.fontawesome.com/93866eaaa9.js" crossorigin="anonymous"></script>
     </head>
+    <marquee behavior="scroll" direction="left">Notice: We now have a DARK mode!! </marquee>
+
+    <h1>
+        Boi News
+    </h1>
+    <h2>
+        The most trusted News source
+    </h2>
+    <p>Our Team</p>
+    <div class="row">
+        <div class="column">
+          <img src="articals/Img/Our-Team/deen.jpeg" style="width:250px;height:250px;">
+          <img src="articals/Img/Our-Team/isa.jpeg" style="width:250px;height:250px;">  
+          <img src="articals/Img/Our-Team/who.jpeg" style="width:250px;height:235px;">
+        </div>
+        <div class="column">
+            <img src="articals/Img/Our-Team/spandon.jpeg" style="width:250px;height:250x;">
+            <img src="articals/Img/Our-Team/joshua.png" style="width:335px;height:335px;">
+        </div>
+<style>
+    .row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create two equal columns that sits next to each other */
+.column {
+  flex: 50%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+}
+</style>
+<button onclick="one()">1</button>
+<button onclick="two()">2</button>
+<button onclick="four()">3</button>
+
+<script>
+// Get the elements with class="column"
+var elements = document.getElementsByClassName("column");
+
+// Declare a "loop" variable
+var i;
+
+// Full-width images
+function one() {
+  for (i = 0; i < elements.length; i++) {
+    elements[i].style.flex = "100%";
+  }
+}
+
+// Two images side by side
+function two() {
+  for (i = 0; i < elements.length; i++) {
+    elements[i].style.flex = "50%";
+  }
+}
+
+// Four images side by side
+function four() {
+  for (i = 0; i < elements.length; i++) {
+    elements[i].style.flex = "25%";
+  }
+}
+</script> 
     </html>
-    <h1>Dev Log :)</h1>
-    <p>
-        <li>23/03/2021: Website moved to Githubpages, Our old hosting service killed our old domain.</li>
-        <li>24/03/2021: Article Page added but the images are not tiling for some reason.</li>
-    </p>
