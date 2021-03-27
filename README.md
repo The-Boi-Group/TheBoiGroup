@@ -1,4 +1,2 @@
 # The Boi Group Website.
-## Here is the source code for our website.
-##yep
-###OK
+Welcome here is were we store the code for our project
