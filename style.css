@@ -356,3 +356,65 @@ ul.articles li {
 footer {
 	font-size: 13px;
 }
+
+.Headings {
+	text-align: center;
+}
+
+.grid-container {
+	display: grid;
+  }
+
+.grid-container {
+	display: inline-grid;
+  }
+
+/* (A) SET CONTAINER TO GRID */
+#grid-col {
+	display: grid;
+	grid-template-columns: auto auto auto; /* 3 COL LAYOUT */
+  
+	/* WE CAN ALSO SPECIFY EXACT PX OR %
+	grid-template-columns: 200px 250px 150px;
+	grid-template-columns: 20% 40% 40%;
+	*/
+  
+	/* THE EASIER WAY TO MASS REPEAT MANY COLUMNS
+	grid-template-columns: repeat(4, 250px);
+	grid-template-columns: repeat(4, auto);
+	*/
+  }
+  
+  /* (B) STYLE EACH GRID CELL */
+  div.cell {
+	background: #feffc4;
+	border: 1px solid #aaa;
+	padding: 10px;
+  }
+  
+  /* (C) RESPONSIVE SUPPORT */
+  /* 2 COL LAYOUT ON TABLET */
+  @media screen and (max-width: 1000px) {
+	#grid-col {
+	  grid-template-columns: auto auto; 
+	}
+  }
+  /* 1 COL LAYOUT ON MOBILE */
+  @media screen and (max-width: 600px) {
+	#grid-col {
+	  grid-template-columns: 100%;
+	}
+  }
+
+  .centreme {
+	text-align: center;
+
+  }
+
+  .left {
+	  text-align: left;
+  }
+
+  .right {
+	text-align: right;
+}
