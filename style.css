@@ -406,25 +406,3 @@ footer {
 	}
   }
 
-
-  .centreme {
-text-align: center;
-
-}
-
-.left {
-text-align: left;
-}
-
-.right {
-text-align: right;
-}
-
-.hide {
-display: none;
-}
-
-.myDIV:hover + .hide {
-display: block;
-color: red;
-}
