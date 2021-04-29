@@ -1,0 +1,107 @@
+/*! normalize.css v7.0.0 | MIT License | github.com/necolas/normalize.css */
+@font-face {
+	font-family: Retro; src: url(OpenDyslexic-Regular.ttf);
+  }
+  
+body {
+	background: #1a222c;
+	padding: 0;
+	font-size: 100%;
+	line-height: 1.5;
+	color: #555;
+	font-family: Retro;
+}
+
+#particles-js {
+	background: #1a222c;
+	display: flex;
+	vertical-align: bottom;
+	width: 100%;
+	min-height: 100vh;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed
+}
+
+.header {
+	z-index: 1;
+	text-align: center;
+	color: #fff;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin: 0 auto;
+	-webkit-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%)
+}
+
+.header .site-title {
+	font-size: 50px;
+	display: block;
+	line-height: 1;
+	color: #fff
+}
+
+@media only screen and (min-width:550px) {
+	.header .site-title {
+		margin: 0;
+		font-size: 60px
+	}
+
+}
+
+.footer {
+	background: #1a222c;
+	padding: 10px 0;
+	margin-top: 100px;
+	text-align: center;
+	color: #fff
+}
+
+.footer .love {
+	color: red
+}
+
+.footer a {
+	text-decoration: none;
+	margin: 0;
+	color: #fff
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+	text-align: center;
+	overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+	float: center;
+	color: #f2f2f2;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 17px;
+  }
+  /* Change the color of links on hover */
+  .topnav a:hover {
+	background-color: #ddd;
+	color: black;
+  }
+
+.Links {
+	text-align: center
+}
+
+.Articles {
+	text-align: center
+}
+
+p, h1, h2 {
+	color: #fff
+}
+
+.title h1{
+	text-align: center
+	
+}

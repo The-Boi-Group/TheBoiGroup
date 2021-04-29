@@ -1,0 +1,3 @@
+if (self.CavalryLogger) { CavalryLogger.start_js(["vDj8xED"]); }
+
+__d("HeroTracingCoreDependencies",["cr:1791018","cr:1791501","cr:1808490","cr:683059","useCometTailLoadPageletTracker"],(function(a,b,c,d,e,f){"use strict";a={useTailLoadPageletTracker:b("useCometTailLoadPageletTracker"),InteractionVC:b("cr:1791018"),UserTimingUtils:b("cr:1808490"),VCTracker:b("cr:1791501"),VisualCompletion:b("cr:683059")};e.exports=a}),null);
