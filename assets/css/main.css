@@ -1,10 +1,9 @@
-/*! normalize.css v7.0.0 | MIT License | github.com/necolas/normalize.css */
 @font-face {
 	font-family: Retro; src: url(OpenDyslexic-Regular.ttf);
   }
   
 body {
-	background: #1a222c;
+	background: #3d3846;
 	padding: 0;
 	font-size: 100%;
 	line-height: 1.5;
@@ -12,8 +11,9 @@ body {
 	font-family: Retro;
 }
 
+/*Junk That Is Still Needed*/
 #particles-js {
-	background: #1a222c;
+	background: #3d3846;
 	display: flex;
 	vertical-align: bottom;
 	width: 100%;
@@ -42,16 +42,8 @@ body {
 	color: #fff
 }
 
-@media only screen and (min-width:550px) {
-	.header .site-title {
-		margin: 0;
-		font-size: 60px
-	}
-
-}
-
 .footer {
-	background: #1a222c;
+	background: #3d3846;
 	padding: 10px 0;
 	margin-top: 100px;
 	text-align: center;
@@ -75,19 +67,19 @@ body {
   }
   
   /* Style the links inside the navigation bar */
-  .topnav a {
+.topnav a {
 	float: center;
 	color: #f2f2f2;
 	text-align: center;
 	padding: 14px 16px;
 	text-decoration: none;
 	font-size: 17px;
-  }
+}
   /* Change the color of links on hover */
-  .topnav a:hover {
+.topnav a:hover {
 	background-color: #ddd;
 	color: black;
-  }
+}
 
 .Links {
 	text-align: center
@@ -98,10 +90,17 @@ body {
 }
 
 p, h1, h2 {
-	color: #fff
+	color: #ffff
 }
 
 .title h1{
 	text-align: center
 	
+}
+
+blockquote {
+	background-color: whitesmoke;
+	padding: 300px 0;
+	margin-top: 100px;
+	text-align: center;
 }
