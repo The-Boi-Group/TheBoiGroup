@@ -1,11 +1,11 @@
 @font-face {
 	font-family: Retro; src: url(OpenDyslexic-Regular.ttf);
   }
-  
+
 body {
 	background: #3d3846;
 	padding: 0;
-	font-size: 100%;
+	font-size: 70%;
 	line-height: 1.5;
 	color: #555;
 	font-family: Retro;
@@ -44,8 +44,8 @@ body {
 
 .footer {
 	background: #3d3846;
-	padding: 10px 0;
-	margin-top: 100px;
+	padding: auto 0;
+	margin-top: auto;
 	text-align: center;
 	color: #fff
 }
@@ -65,7 +65,7 @@ body {
 	text-align: center;
 	overflow: hidden;
   }
-  
+
   /* Style the links inside the navigation bar */
 .topnav a {
 	float: center;
@@ -95,7 +95,7 @@ p, h1, h2 {
 
 .title h1{
 	text-align: center
-	
+
 }
 
 blockquote {
